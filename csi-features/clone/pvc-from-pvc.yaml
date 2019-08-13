@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pvc-from-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: basic-csi
+  resources:
+    requests:
+      storage: 1Gi
+  dataSource:
+    name: basic
+    kind: PersistentVolumeClaim
