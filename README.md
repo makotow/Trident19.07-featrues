@@ -1,4 +1,4 @@
-# NetAPp/Trident 19.07 new features
+# NetApp/Trident 19.07 new features
 
 ## 目的
 
